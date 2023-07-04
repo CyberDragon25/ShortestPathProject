@@ -1,0 +1,15 @@
+/* styles.css */
+
+.array-box {
+    font-family: monospace;
+    font-size: 14px;
+    padding: 4px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+#array-output {
+    background-color: #ffffff;
+    padding: 10px;
+}
