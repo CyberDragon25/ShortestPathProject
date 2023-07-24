@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <script src="app.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <title>Shortest Path Algorithim</title>
+<head>
+    <title>2D Array Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    </head>
+<body>
+    <div class="container">
+        <h1>2D Array Generator</h1>
+        <p>Enter the number of rows and columns for the 2D array:</p>
+        <form id="arrayForm">
+            <input type="number" id="rows" placeholder="Rows" required>
+            <input type="number" id="columns" placeholder="Columns" required>
+            <button type="submit">Generate 2D Array</button>
+        </form>
+        <div id="tableContainer"></div>
+    </div>
 
-    <body>
-
-        <h1>Shortest Path Algorithim</h1>
-
-        <pre id="array-output"></pre>
-
-    </body>
+    <script src="app.js"></script>
+</body>
 
 </html>
