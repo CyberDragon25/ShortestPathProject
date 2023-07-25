@@ -45,3 +45,18 @@ th {
     background-color: #333;
     color: #fff;
 }
+
+/* Style for array tiles */
+td.array-tile {
+    background-color: lightblue;
+}
+
+/* Style for array tiles */
+td.array-tile {
+    background-color: lightblue;
+}
+
+/* Style for the path */
+td.path-tile {
+    background-color: red;
+}

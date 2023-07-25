@@ -2,18 +2,26 @@
 <html>
 
 <head>
-    <title>2D Array Generator</title>
+    <title>2D Array Table</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>2D Array Generator</h1>
+        <h1>2D Array Table</h1>
         <p>Enter the number of rows and columns for the 2D array:</p>
         <form id="arrayForm">
             <input type="number" id="rows" placeholder="Rows" required>
             <input type="number" id="columns" placeholder="Columns" required>
             <button type="submit">Generate 2D Array</button>
+        </form>
+        <p>Enter the start and end coordinates for the shortest path:</p>
+        <form id="pathForm">
+            <input type="number" id="startX" placeholder="Start X" required>
+            <input type="number" id="startY" placeholder="Start Y" required>
+            <input type="number" id="endX" placeholder="End X" required>
+            <input type="number" id="endY" placeholder="End Y" required>
+            <button type="submit">Find Shortest Path</button>
         </form>
         <div id="tableContainer"></div>
     </div>
